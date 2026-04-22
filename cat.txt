@@ -1,0 +1,10 @@
+cat <<EOF > ~/Desktop/install.desktop
+[Desktop Entry]
+Name=Install AeroLinux
+Exec=sudo calamares
+Icon=system-software-install
+Type=Application
+Terminal=false
+EOF
+
+chmod +x ~/Desktop/install.desktop
